@@ -2,6 +2,27 @@
 
 A modern, scalable blog API built with ASP.NET Core 8.0, demonstrating clean architecture principles, CQRS pattern, and vertical slice architecture.
 
+
+
+## Future Development Roadmap (Improvements)
+
+To elevate this system to an enterprise-grade production standard, the following enhancements are proposed:
+
+- Authentication and Authorization: Integration with identity providers such as Auth0 or IdentityServer (utilizing JWT Bearer Tokens).
+
+- Observability and Telemetry: Implementation of OpenTelemetry (Jaeger/Prometheus) to facilitate distributed tracing and performance monitoring.
+
+- Comprehensive Testing: Expansion of the BlogApi.Tests suite to include robust Integration Tests utilizing TestContainers and WebApplicationFactory.
+
+- Add Resiliency Patterns: Implement retry policies and circuit breakers using Polly to enhance fault tolerance.
+
+- Rate Limiting: Introduce rate limiting middleware to protect the API from abuse and ensure fair usage.
+
+- CI/CD Pipeline: Establish automated build, test, and deployment pipelines using GitHub Actions.
+
+- Add Explicit CORS policies for safer production environment.
+
+
 ## Technology Stack
 
 ### Core Framework
